@@ -51,18 +51,6 @@ elmat %>%
   add_shadow(ray_shade(elmat), 0.5) %>%
   plot_map()
 
-
-#And here we add an ambient occlusion shadow layer, which models 
-#lighting from atmospheric scattering:
-
-elmat %>%
-  sphere_shade(texture = "desert") %>%
-  add_water(detect_water(elmat), color = "desert") %>%
-  add_shadow(ray_shade(elmat), 0.5) %>%
-  add_shadow(ambient_shade(elmat), 0) %>%
-  plot_map()
-
-
 # Oclusión ambiental: Capa de sombra que regulará iluminación a partir de la dispersión atmosférica
 elmat %>%
   sphere_shade(texture = "desert") %>%
@@ -83,7 +71,7 @@ Sys.sleep(0.2)
 render_snapshot()
 
 
-##Puede agregar una barra de escala, así como una brújula usando funciones render_scalebar y render_compass
+##Puedes agregar una barra de escala, así como una brújula usando funciones render_scalebar y render_compass
 render_camera(fov = 0, theta = 60, zoom = 0.75, phi = 45)
 render_scalebar(limits=c(0, 5, 10),label_unit = "km",position = "W", y=50,
                 scale_length = c(0.33,1))
