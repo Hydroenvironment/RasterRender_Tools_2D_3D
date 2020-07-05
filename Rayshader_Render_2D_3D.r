@@ -2,7 +2,7 @@
 # GENERACIÓN DE MAPAS CON TEXTURA 2D Y 3D CON LA LIBRERÍA RAYSHADER                 #
 #####################################################################################
 
-#Rayshader se puede usar para dos propósitos: crear mapas sombreados y gráficos de visualización de datos en 3D. 
+#Rayshader se puede usar para dos propósitos: crear mapas sombreados y gráficos de visualización de datos en 2D y 3D. 
 
 # Instalando la última versión desde Github:
 
