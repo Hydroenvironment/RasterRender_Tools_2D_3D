@@ -1,10 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
+#######################################################################
+# DELIMITACIÓN DE CUENCAS USANDO LA LIBRERÍA                          # 
+# PYSHEDS                                                             #       
+#######################################################################
 
-This is a temporary script file.
-"""
+#Tutorial de instalación Pysheds: https://www.youtube.com/watch?v=bIrKF29oWIA&t=384s
 
+#Importamos librerías a usar
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
